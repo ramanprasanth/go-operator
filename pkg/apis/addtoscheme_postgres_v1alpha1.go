@@ -1,7 +1,7 @@
 package apis
 
 import (
-	"github.com/ramanprasanth/postgres-go/pkg/apis/postgres/v1alpha1"
+	"github.com/ramanprasanth/go-operator/pkg/apis/postgres/v1alpha1"
 )
 
 func init() {
