@@ -1,4 +1,4 @@
-module github.com/talat-shaheen/postgres-go
+module github.com/ramanprasanth/go-operator
 
 go 1.13
 

@@ -3,7 +3,7 @@ package deploypostgres
 import (
 	"context"
 
-	postgresv1alpha1 "github.com/talat-shaheen/postgres-go/pkg/apis/postgres/v1alpha1"
+	postgresv1alpha1 "github.com/ramanprasanth/go-operator/pkg/apis/postgres/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	"k8s.io/apimachinery/pkg/api/errors"

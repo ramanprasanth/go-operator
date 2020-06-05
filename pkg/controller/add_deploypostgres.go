@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/talat-shaheen/postgres-go/pkg/controller/deploypostgres"
+	"github.com/ramanprasanth/go-operator/pkg/controller/deploypostgres"
 )
 
 func init() {
