@@ -11,9 +11,9 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	"k8s.io/client-go/rest"
 
-	"github.com/talat-shaheen/postgres-go/pkg/apis"
-	"github.com/talat-shaheen/postgres-go/pkg/controller"
-	"github.com/talat-shaheen/postgres-go/version"
+	"github.com/ramanprasanth/go-operator/pkg/apis"
+	"github.com/ramanprasanth/go-operator/pkg/controller"
+	"github.com/ramanprasanth/go-operator/version"
 
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	kubemetrics "github.com/operator-framework/operator-sdk/pkg/kube-metrics"
