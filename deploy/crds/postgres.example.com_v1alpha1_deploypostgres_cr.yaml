@@ -1,0 +1,18 @@
+apiVersion: postgres.example.com/v1alpha1
+kind: DeployPostgres
+metadata:
+  name: example-deploypostgres
+spec:
+  # Add fields here
+  size: 1
+  persistentVolumeClaim:
+      metadata:
+        name: "go-pvc-test"
+      spec:
+        accessModes: [ "ReadWriteOnce" ]
+        storageClassName: default
+        resources:
+          requests:
+            storage: 8Gi
+
+
